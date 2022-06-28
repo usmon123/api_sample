@@ -26,7 +26,7 @@ class _HomePage2State extends State<HomePage2> {
         backgroundColor: const Color(0xfff5f5f5),
         appBar: AppBar(
           title: const Text(
-            'Valyutalar kurslar',
+            'Valyuta kurslari',
             style: TextStyle(color: Colors.black),
           ),
           actions: [
@@ -139,7 +139,7 @@ class _HomePage2State extends State<HomePage2> {
                                         width: 40,
                                         child: obj?.code != null
                                             ? Image.asset(
-                                                'assets/images/${obj?.code}.png')
+                                                'assets/images/${obj?.code}.jpg')
                                             : const Icon(Icons.flag_rounded)),
                                     Text(
                                       snapshot.data?.data[index].code ?? '..',

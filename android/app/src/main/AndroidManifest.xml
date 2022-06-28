@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.api_simpl">
+    package="uz.usmon.valyutakursi">
    <application
         android:label="api_simpl"
         android:name="${applicationName}"
